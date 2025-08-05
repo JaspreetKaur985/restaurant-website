@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foodhub</title>
+
+  <!--
+    - custom css link 
+  -->
+  <link rel="stylesheet" href="./assets/css/foodhub.css">
+  <link rel="stylesheet" href="./assets/css/media_query.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Monoton&family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!--
+    - main container
+  -->
+
+  <div class="container">
+
+    <!--
+      - #HEADER
+    -->
+
+    <header>
+
+      <nav class="navbar">
+
+        <div class="navbar-wrapper">
+
+          <a href="#">
+            <img src="./assets/images/logo.svg" alt="logo" width="130">
+          </a>
+
+          <ul class="navbar-nav">
+
+            <li>
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#about" class="nav-link">About</a>
+            </li>
+
+            <li>
+              <a href="#services" class="nav-link">Services</a>
+            </li>
+
+            <li>
+              <a href="#menu" class="nav-link">Our Menu</a>
+            </li>
+
+            <li>
+              <a href="#testimonials" class="nav-link">Testimonials</a>
+            </li>
+
+          </ul>
+
+          <div class="navbar-btn-group">
+
+            <button class="shopping-cart-btn">
+              <img src="./assets/images/cart.svg" alt="shopping cart icon" width="18">
+              <span class="count">5</span>
+            </button>
+
+            <button class="menu-toggle-btn">
+              <span class="line one"></span>
+              <span class="line two"></span>
+              <span class="line three"></span>
+            </button>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+      <div class="cart-box">
+
+  <ul class="cart-box-ul">
+
+    <h4 class="cart-h4">Your Order</h4>
+
+    <li>
+      <a href="#" class="cart-item">
+        <div class="img-box">
+          <img src="./assets/images/menu1.jpg" alt="product image" class="product-img" width="50" height="50" loading="lazy">
+        </div>
+
+        <h5 class="product-name">Grilled Salmon</h5>
+        <p class="product-price">
+          <span class="small">$</span>9
+        </p>
+      </a>
+    </li>
+
+    <li>
+      <a href="#" class="cart-item">
+        <div class="img-box">
+          <img src="./assets/images/menu2.jpg" alt="product image" class="product-img" width="50" height="50" loading="lazy">
+        </div>
+
+        <h5 class="product-name">Fried Cheese with Honey</h5>
+        <p class="product-price">
+          <span class="small">$</span>14
+        </p>
+      </a>
+    </li>
+
+    <li>
+      <a href="#" class="cart-item">
+        <div class="img-box">
+          <img src="./assets/images/menu3.jpg" alt="product image" class="product-img" width="50" height="50" loading="lazy">
+        </div>
+
+        <h5 class="product-name">Crispy Fried Fish</h5>
+        <p class="product-price">
+          <span class="small">$</span>4
+        </p>
+      </a>
+    </li>
+
+    <li>
+      <a href="#" class="cart-item">
+        <div class="img-box">
+          <img src="./assets/images/menu4.jpg" alt="product image" class="product-img" width="50" height="50" loading="lazy">
+        </div>
+
+        <h5 class="product-name">Creamy Cheese Dip</h5>
+        <p class="product-price">
+          <span class="small">$</span>11
+        </p>
+      </a>
+    </li>
+
+    <li>
+      <a href="#" class="cart-item">
+        <div class="img-box">
+          <img src="./assets/images/menu5.jpg" alt="product image" class="product-img" width="50" height="50" loading="lazy">
+        </div>
+
+        <h5 class="product-name">Raw Fish Platter</h5>
+        <p class="product-price">
+          <span class="small">$</span>19
+        </p>
+      </a>
+    </li>
+
+  </ul>
+
+  <div class="cart-btn-group">
+    <button class="btn btn-secondary">View Order</button>
+    <button class="btn btn-primary">Checkout</button>
+  </div>
+
+</div>
+
+    </header>
+
+
+
+
+
+   <main>
+
+  <!--
+    - #HOME SECTION
+  -->
+
+  <section class="home" id="home">
+
+    <div class="home-left">
+
+      <p class="home-subtext">Welcome to our site!</p>
+
+      <h1 class="main-heading">We don’t just cook — we create unforgettable flavors!</h1>
+
+      <p class="home-text">
+        Crafted with care and passion to bring you the best food experience.
+      </p>
+
+      <div class="btn-group">
+
+        <button class="btn btn-primary btn-icon">
+          <img src="./assets/images/menu.svg" alt="menu icon">
+          Explore Menu
+        </button>
+
+        <button class="btn btn-secondary btn-icon">
+          <img src="./assets/images/arrow.svg" alt="menu icon">
+          Learn About Us
+        </button>
+
+      </div>
+
+    </div>
+
+    <div class="home-right">
+
+      <img src="./assets/images/food1.png" alt="food image" class="food-img food-1" width="200" loading="lazy">
+      <img src="./assets/images/food2.png" alt="food image" class="food-img food-2" width="200" loading="lazy">
+      <img src="./assets/images/food3.png" alt="food image" class="food-img food-3" width="200" loading="lazy">
+
+      <img src="./assets/images/dialog-1.svg" alt="dialog" class="dialog dialog-1" width="230">
+      <img src="./assets/images/dialog-2.svg" alt="dialog" class="dialog dialog-2" width="230">
+
+      <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-1" width="25">
+      <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-2" width="15">
+      <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-3" width="30">
+      <img src="./assets/images/ring.svg" alt="ring shape" class="shape shape-4" width="60">
+      <img src="./assets/images/ring.svg" alt="ring shape" class="shape shape-5" width="40">
+
+    </div>
+
+  </section>
+
+
+      <!--
+        - #ABOUT SECTION
+      -->
+
+      <!-- - #ABOUT SECTION -->
+<section class="about" id="about">
+
+  <div class="about-left">
+    <div class="img-box">
+      <img src="./assets/images/about-image.jpg" alt="about image" class="about-img" width="250">
+    </div>
+
+    <div class="abs-content-box">
+      <div class="dotted-border">
+        <p class="number-lg">17</p>
+        <p class="text-md">Years <br> Experience</p>
+      </div>
+    </div>
+
+    <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-6" width="20">
+    <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-7" width="30">
+    <img src="./assets/images/ring.svg" alt="ring shape" class="shape shape-8" width="35">
+    <img src="./assets/images/ring.svg" alt="ring shape" class="shape shape-9" width="80">
+  </div>
+
+  <div class="about-right">
+    <h2 class="section-title">We go beyond your expectations</h2>
+
+    <p class="section-text">
+      We are committed to delivering more than just food — we offer unforgettable dining experiences. With our attention to detail, passion for flavor, and excellent service, we make every visit special and memorable.
+    </p>
+
+    <p class="section-text">
+      Our team works hard to ensure every dish is crafted to perfection. With high-quality ingredients, warm hospitality, and a passion for excellence, we create moments you’ll cherish.
+    </p>
+
+    <img src="./assets/images/signature.png" alt="signature" class="signature" width="150">
+  </div>
+
+</section>
+
+<!-- - #SERVICES SECTION -->
+<section class="services" id="services">
+
+  <div class="service-card">
+    <p class="card-number">01</p>
+    <h3 class="card-heading">We are located in the city center</h3>
+    <p class="card-text">
+      Easily accessible and conveniently located, our restaurant is in the heart of the city, perfect for both quick visits and relaxed meals.
+    </p>
+  </div>
+
+  <div class="service-card">
+    <p class="card-number">02</p>
+    <h3 class="card-heading">Fresh ingredients from organic farms</h3>
+    <p class="card-text">
+      We source our ingredients directly from trusted organic farms to ensure that every meal is healthy, fresh, and full of flavor.
+    </p>
+  </div>
+
+  <div class="service-card">
+    <p class="card-number">03</p>
+    <h3 class="card-heading">Own fast delivery. 30 min Maximum</h3>
+    <p class="card-text">
+      Our dedicated delivery team ensures your order arrives hot and fresh — always within 30 minutes or less.
+    </p>
+  </div>
+
+  <div class="service-card">
+    <p class="card-number">04</p>
+    <h3 class="card-heading">Professional, experienced chefs</h3>
+    <p class="card-text">
+      Our chefs bring years of culinary expertise and creativity to every dish, delivering consistent quality and great taste.
+    </p>
+  </div>
+
+  <div class="service-card">
+    <p class="card-number">05</p>
+    <h3 class="card-heading">The highest standards of service</h3>
+    <p class="card-text">
+      We pride ourselves on exceptional customer service, ensuring every guest is welcomed and served with care.
+    </p>
+  </div>
+
+</section>
+
+
+      <!--
+        - #PRODUCT SECTION
+      -->
+
+      <section class="product" id="menu">
+
+  <h2 class="section-title">Most Popular Dishes</h2>
+
+  <p class="section-text">
+    Discover our favorite dishes, made fresh with quality ingredients.
+  </p>
+
+  <div class="products-grid">
+
+    <a href="#">
+
+      <div class="product-card">
+
+        <div class="img-box">
+          <img src="./assets/images/menu1.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+        </div>
+
+        <div class="product-content">
+
+          <div class="wrapper">
+            <h3 class="product-name">Stracciatella</h3>
+
+            <p class="product-price">
+              <span class="small">$</span>11
+            </p>
+          </div>
+
+          <p class="product-text">
+            Tomatoes, nori, feta cheese, mushrooms, rice noodles, corn, shrimp.
+          </p>
+
+          <div class="product-rating">
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+          </div>
+
+        </div>
+
+      </div>
+
+    </a>
+
+    <a href="#">
+
+      <div class="product-card">
+
+        <div class="img-box">
+          <img src="./assets/images/menu2.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+        </div>
+
+        <div class="product-content">
+
+          <div class="wrapper">
+            <h3 class="product-name">Goat Cheese with Honey</h3>
+
+            <p class="product-price">
+              <span class="small">$</span>14
+            </p>
+          </div>
+
+          <p class="product-text">
+            Tomatoes, nori, feta cheese, mushrooms, rice noodles, corn, shrimp.
+          </p>
+
+          <div class="product-rating">
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+          </div>
+
+        </div>
+
+      </div>
+
+    </a>
+
+    <a href="#">
+
+      <div class="product-card">
+
+        <div class="img-box">
+          <img src="./assets/images/menu3.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+
+          <div class="card-badge green">
+            <ion-icon name="leaf"></ion-icon>
+            <p>Vegan</p>
+          </div>
+        </div>
+
+        <div class="product-content">
+
+          <div class="wrapper">
+            <h3 class="product-name">Salmon Gravlax</h3>
+
+            <p class="product-price">
+              <span class="small">$</span>9
+            </p>
+          </div>
+
+          <p class="product-text">
+            Tomatoes, nori, feta cheese, mushrooms, rice noodles, corn, shrimp.
+          </p>
+
+          <div class="product-rating">
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+          </div>
+
+        </div>
+
+      </div>
+
+    </a>
+
+    <a href="#">
+
+      <div class="product-card">
+
+        <div class="img-box">
+          <img src="./assets/images/menu4.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+
+          <div class="card-badge red">
+            <ion-icon name="flame"></ion-icon>
+            <p>Spicy</p>
+          </div>
+        </div>
+
+        <div class="product-content">
+
+          <div class="wrapper">
+            <h3 class="product-name">Crispy Fish</h3>
+
+            <p class="product-price">
+              <span class="small">$</span>4
+            </p>
+          </div>
+
+          <p class="product-text">
+            Tomatoes, nori, feta cheese, mushrooms, rice noodles, corn, shrimp.
+          </p>
+
+          <div class="product-rating">
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+          </div>
+
+        </div>
+
+      </div>
+
+    </a>
+
+    <a href="#">
+
+      <div class="product-card">
+
+        <div class="img-box">
+          <img src="./assets/images/menu5.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+
+          <div class="card-badge green">
+            <ion-icon name="leaf"></ion-icon>
+            <p>Vegan</p>
+          </div>
+        </div>
+
+        <div class="product-content">
+
+          <div class="wrapper">
+            <h3 class="product-name">Sea Bream Carpaccio</h3>
+
+            <p class="product-price">
+              <span class="small">$</span>6
+            </p>
+          </div>
+
+          <p class="product-text">
+            Tomatoes, nori, feta cheese, mushrooms, rice noodles, corn, shrimp.
+          </p>
+
+          <div class="product-rating">
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+          </div>
+
+        </div>
+
+      </div>
+
+    </a>
+
+    <a href="#">
+
+      <div class="product-card">
+
+        <div class="img-box">
+          <img src="./assets/images/menu2.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+        </div>
+
+        <div class="product-content">
+
+          <div class="wrapper">
+            <h3 class="product-name">Goat Cheese with Honey</h3>
+
+            <p class="product-price">
+              <span class="small">$</span>14
+            </p>
+          </div>
+
+          <p class="product-text">
+            Tomatoes, nori, feta cheese, mushrooms, rice noodles, corn, shrimp.
+          </p>
+
+          <div class="product-rating">
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+          </div>
+
+        </div>
+
+      </div>
+
+    </a>
+
+  </div>
+
+  <button class="btn btn-primary btn-icon">
+    <img src="./assets/images/menu.svg" alt="menu icon">
+    Full Menu
+  </button>
+
+</section>
+
+      <!--
+        - #TESTIMONIALS SECTION
+      -->
+
+      <section class="testimonials" id="testimonials">
+
+  <h2 class="section-title">What Our Customers Say</h2>
+
+  <p class="section-text">
+    Hear from our happy customers who love our food and service.
+  </p>
+
+  <div class="testimonials-grid">
+
+    <div class="testimonials-card">
+
+      <h4 class="card-title">Delicious and Fresh!</h4>
+
+      <div class="testimonials-rating">
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+      </div>
+
+      <p class="testimonials-text">
+        The flavors are incredible, and every dish feels homemade. I always leave feeling satisfied and eager to come back!
+      </p>
+
+      <div class="customer-info">
+        <div class="customer-img-box">
+          <img src="./assets/images/testimonials1.jpg" alt="customer image" class="customer-img" width="100" loading="lazy">
+        </div>
+
+        <h5 class="customer-name">Emma Newman</h5>
+      </div>
+
+    </div>
+
+    <div class="testimonials-card">
+
+      <h4 class="card-title">My Favorite Lunch Spot</h4>
+
+      <div class="testimonials-rating">
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+      </div>
+
+      <p class="testimonials-text">
+        I eat here almost every day! The quality, quick service, and friendly staff make it the perfect place for a lunch break.
+      </p>
+
+      <div class="customer-info">
+        <div class="customer-img-box">
+          <img src="./assets/images/testimonials2.jpg" alt="customer image" class="customer-img" width="100" loading="lazy">
+        </div>
+
+        <h5 class="customer-name">Paul Trueman</h5>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+</main>
+
+<!--
+  - #FOOTER
+-->
+
+<footer>
+
+  <div class="footer-wrapper">
+
+    <a href="#">
+      <img src="./assets/images/logo-footer.svg" alt="logo" class="footer-brand" width="130">
+    </a>
+
+    <div class="social-link">
+
+      <a href="#" aria-label="Twitter">
+        <ion-icon name="logo-twitter"></ion-icon>
+      </a>
+
+      <a href="#" aria-label="Instagram">
+        <ion-icon name="logo-instagram"></ion-icon>
+      </a>
+
+      <a href="#" aria-label="Facebook">
+        <ion-icon name="logo-facebook"></ion-icon>
+      </a>
+
+      <a href="#" aria-label="YouTube">
+        <ion-icon name="logo-youtube"></ion-icon>
+      </a>
+
+    </div>
+
+    <p class="copyright">&copy; 2025 FoodHub. All Rights Reserved.</p>
+
+  </div>
+
+</footer>
+
+</div>
+
+<!--
+  - custom js link
+-->
+<script src="./assets/js/foodhub.js"></script>
+
+<!--
+  - ionicon link
+-->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
